@@ -65,7 +65,7 @@ public class FirstAPITest {
 //                .extract()
 //                .path("id");
 //
-//        // 👉 PRINT ID
+//        // PRINT ID
 //        System.out.println("User ID: " + userId);
 //
 //        given()
