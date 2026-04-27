@@ -19,7 +19,7 @@ public class FirstAPITest {
                 .extract()
                 .path("accessToken");
 
-        System.out.println("Token:" + token);
+        System.out.println("Token1:" + token);
 
         given()
                 .header("Authorization", "Bearer " + token)
